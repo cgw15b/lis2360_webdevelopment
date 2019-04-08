@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document created by Casey Woods, April 6, 2019*/
+/* CSS Document created by Casey Woods, September 25, 2018*/
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@ body {
 	padding: 0;
 }
 
-/* basic text styles ----------------------------  */
+
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #000;
@@ -46,22 +46,21 @@ h3 {
 	font-style: italic;
 }
 
-/* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #fdbc0e;
+	color: #ff0000;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #fdbc0e;
+	color: #ff0000;
 	text-decoration: none;
 }
 a:hover {
 	color: #000;
 }
 
-/* list styles ----------------------------- */
+
 ul li {
 	list-style-image: url(images/star.png);
 	margin-left: 12px;
@@ -70,7 +69,6 @@ ol {
 	margin-left: 14px;
 }
 
-/* table styles -------------------------------------- */
 table {
 	border: solid #fff 1px;
 	margin: 0 40px;
@@ -87,7 +85,6 @@ th {
 	border: solid #fff 1px;
 }
 
-/* border styles ------------------------------------ */
 hr {
 	border: solid #fff 1px;
 }
