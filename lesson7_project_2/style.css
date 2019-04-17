@@ -1,0 +1,150 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+h4 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+table {
+	border: solid #6297F9 1px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #6297F9;
+	text-align: center;
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+a:link {
+	color: #6297F9;
+}
+a:visited {
+	color: #6297F9;
+}
+a:hover {
+	color: #4578DF;
+	text-decoration: none;
+}
+
+#splash{
+    height: 1000px;
+    background: url(Images/sumo_paint_1.jpg) no-repeat center top fixed;
+   	background-size: cover;  
+	
+}
+    
+#overview{
+    background-color: #BABCBE;
+    height: 1000px;
+}
+
+#media{
+    padding: 40px 0 60px 0;
+    background-color: #FFC20E;
+    height: 1000px;
+}
+
+#discography{
+    padding: 40px 0 60px 0;
+    background-color: #BABCBE;
+    height: 1000px;
+}
+
+#footer{
+    background-color: #ffffff;
+    height: 1000px;
+    padding: 20px 0;
+}
+.container {
+  width: 960px; 
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+
+ul#menu {
+	list-style: none; 
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; 
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 20px 100px 20px 100px; 
+}
+
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}  
+
+#title-page{
+  width: 100%;
+  padding-top: 200px; 
+  color: #fff;
+  text-align: right;
+}
+#title-page h1 {
+  font-family: 'Amaranth', sans-serif; 
+  font-size: 80px; 	
+  text-shadow: 3px 3px #000; 
+}
+#title-page h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+
+.fltright{
+	float:right;
+	margin: 20px;
+}
+.fltleft{
+	float:left;
+	margin: 20px 20px 20px 0;
+}
+
+ 
