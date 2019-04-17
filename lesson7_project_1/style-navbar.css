@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+
 /* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
 /* TABBED NAVIGATION */
+
 #navbar{
 	width: 100%; /* as wide as container - make sure buttons don't exceed container width */
 	/* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
